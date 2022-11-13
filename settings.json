@@ -114,7 +114,7 @@
     "zenMode.hideStatusBar": false,
     "zenMode.hideLineNumbers": false,
     "editor.lineNumbers": "relative",
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Rusty One Dark",
     "editor.fontFamily": "JetBrainsMono NF, 'Courier New', monospace",
     "editor.wordWrap": "on",
     "workbench.list.openMode": "doubleClick",
@@ -124,5 +124,6 @@
     "theme-by-language.themes": {
         "python": "One Dark Pro Flat",
         "rust": "Rusty One Dark"
-    }
+    },
+    "vim.useCtrlKeys": false,
 }

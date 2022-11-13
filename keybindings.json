@@ -171,5 +171,10 @@
     {
         "key": "ctrl+w",
         "command": "-workbench.action.closeActiveEditor"
-    }
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-extension.vim_ctrl+d",
+        "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
+    },
 ]
