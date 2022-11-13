@@ -60,9 +60,6 @@
     "vsicons.dontShowNewVersionMessage": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.semanticTokenColorCustomizations": {
-        "enabled": true
-    },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -94,6 +91,23 @@
                 }
             }
         ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Nord]": {
+            "enabled": true,
+            "rules": {
+                "interface:rust": "#8FBCBB",
+                "enum:rust": "#80bbba",
+                "enumMember:rust": "#5ab5b3",
+                "struct:rust": "#bef3f2",
+                "keyword:rust": {
+                    "foreground": "#81A1C1",
+                    "italic": false
+                },
+                "namespace:rust": "#8FBCBB",
+                "typeParameter:rust": "#8FBCBB"
+            }
+        }
     },
     "rust-analyzer.rustfmt.rangeFormatting.enable": true,
     "glassit.alpha": 255,
